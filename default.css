@@ -1,4 +1,42 @@
 
 body{
-    background-image: url(graphics/sillhouette.jpg)
+    background-color: black;
+    background-image: url(graphics/circle_plain.png);background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#thetitle {
+    position:absolute; top: 280px; left: 275px;
+    font-family: fantasy;
+    color: white;
+}
+
+#line1{
+    position:absolute; top: 370px; left: 370px;
+    font-family: fantasy;
+    color: white;
+}
+
+#line2{
+    position:absolute; top: 410px; left: 360px;
+    font-family: fantasy;
+    color:white;
+}
+
+#game{
+    position:absolute; top: 450px; left: 310px;
+    font-family: fantasy;
+    color: white;
+}
+
+hr{
+    border-color:white;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: rgb(230, 51, 6);
 }
