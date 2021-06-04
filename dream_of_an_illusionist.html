@@ -9,13 +9,14 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Dream of an Illusionist.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Dream of an Illusionist" startnode="40" creator="Twine" creator-version="2.3.14" ifid="F9FDCA99-C4CA-4CE0-8EE1-1A0AD3B895A0" zoom="0.6" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
-tw-sidebars{
-  display:none}
+<tw-storydata name="Dream of an Illusionist" startnode="40" creator="Twine" creator-version="2.3.14" ifid="F9FDCA99-C4CA-4CE0-8EE1-1A0AD3B895A0" zoom="0.6" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-sidebar{display:none}
 
-#sunset{
-  max-width:100px;
-  height: auto}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="0" tags="" position="822,306" size="200,200">(set: $level to $level +1)
+Tw-passage{
+Background-color: black;
+Padding: 25px;
+border-style: solid;
+Border-color: white
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="0" tags="" position="822,306" size="200,200">(set: $level to $level +1)
 {
 	(if: $level &lt;=1) [
 &lt;div&gt;
@@ -68,7 +69,9 @@ You realize you are being rediculous--that was just a dream! You should tell her
 [[next|1]]
 ]
 (else-if: $level&gt;=2)
-[You decide not to scare her.&lt;br&gt; You decide to fix the car tomorrow.
+[You decide not to scare her.&lt;br&gt; 
+You decide to fix the car tomorrow.&lt;br&gt;
+
 [[next|looop]]]
 }
 
@@ -114,7 +117,6 @@ You are relieved, and you decide to check your phone a bit.
 [[check your phone|3am-a]]
 
 </tw-passagedata><tw-passagedata pid="10" name="6am" tags="" position="2273,799" size="200,100">(set: $level to $level +1)
-
 You wake up at 6 am. 
 The dream...it was so real...
 You turn over to check if she is still besides you.
