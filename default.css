@@ -12,19 +12,19 @@ body{
 }
 
 #line1{
-    position:absolute; top: 370px; left: 370px;
+    position:absolute; top: 380px; left: 275px;
     font-family: fantasy;
     color: white;
 }
 
 #line2{
-    position:absolute; top: 410px; left: 360px;
+    position:absolute; top: 420px; left: 275px;
     font-family: fantasy;
     color:white;
 }
 
 #game{
-    position:absolute; top: 450px; left: 310px;
+    position:absolute; top: 460px; left: 275px;
     font-family: fantasy;
     color: white;
 }
@@ -38,5 +38,9 @@ a:link{
 }
 
 a:visited{
-    color: rgb(230, 51, 6);
+    color: white;
+}
+
+#page1{
+    background-color: black;
 }
